@@ -1,11 +1,3 @@
-<?php
-
- $db = mysqli_connect('localhost','username','password','database_name')
- or die('Error connecting to MySQL server.');
- 
-?>
-
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -86,19 +78,19 @@ width: 350px !important;
 
 
 <ul>
-  <li><a href="file:///Users/tiffany/Google%20Drive/yr2sem2assignment/websitedesign/home.html">Home</a></li>
-  <li><a href="file:///Users/tiffany/Google%20Drive/yr2sem2assignment/websitedesign/products.html">Products</a></li>
-  <li><a href="file:///Users/tiffany/Google%20Drive/yr2sem2assignment/websitedesign/aboutus.html">About Us</a></li>
-  <li><a href="file:///Users/tiffany/Google%20Drive/yr2sem2assignment/websitedesign/contactus.html">Contact Us</a></li>
+  <li><a href="/Applications/XAMPP/xamppfiles/htdocs/Tiffany & Co./home.html">Home</a></li>
+  <li><a href="/Applications/XAMPP/xamppfiles/htdocs/Tiffany & Co./products.html">Products</a></li>
+  <li><a href="/Applications/XAMPP/xamppfiles/htdocs/Tiffany & Co./aboutus.html">About Us</a></li>
+  <li><a href="/Applications/XAMPP/xamppfiles/htdocs/Tiffany & Co./contactus.send.html">Contact Us</a></li>
 </ul>
 
 
 <p style="color: #666666; font-size: 18px">
 You can leave you message by filling in the following form. <br>
-You can also reach us through <u>wwytiffany1998@gmail.com</u> or visit any of our branches.
+You can also reach us through visiting any of our branches.
 </p>
 
-<form action="MAILTO: wwytiffany1998@gmail.com" method="post" enctype="text/plain">
+<form action="MAILTO: wwytiffany1998@gmail.com?subject=Inquiry from Customer" method="post" enctype="text/plain">
   <fieldset>
     <legend><font size="4", style="color: #3cc3b6;">Personal information</font></legend>
     <font style="color: #666666;">First name:</font><br>
@@ -126,19 +118,9 @@ You can also reach us through <u>wwytiffany1998@gmail.com</u> or visit any of ou
 </form>
 
 
-
-
-
-
-
-
-
-
 <div class="footer">
   <p> Last modified: 06 Mar 2018 </p>
 </div>
-
-
 
 
 </body>
