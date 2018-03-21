@@ -33,7 +33,7 @@ li a:hover:not(.active) {
 .active {
     background-color: #0abab5;
     text-color: #ffffff;
-}	
+}
 
 .container {
     position: relative;
@@ -72,16 +72,16 @@ width: 350px !important;
 
 
 <div class="container">
-  <img src="http://localhost/tiffany-wallpaper.jpg" alt="wallpaper"  style="width:100%; ">
+  <img src="http://localhost:5000/tiffany-wallpaper.jpg" alt="wallpaper"  style="width:100%; ">
 <div class="top-left">TIFFANY & CO.</div>
 </div>
 
 
 <ul>
-  <li><a href="http://localhost/shop/home.html">Home</a></li>
-  <li><a href="http://localhost/shop/products.html">Products</a></li>
-  <li><a href="http://localhost/shop/aboutus.html">About Us</a></li>
-  <li><a href="http://localhost/shop/contactus.send.html">Contact Us</a></li>
+  <li><a href="http://localhost:5000/home.html">Home</a></li>
+  <li><a href="http://localhost:5000/products.html">Products</a></li>
+  <li><a href="http://localhost:5000/aboutus.html">About Us</a></li>
+  <li><a href="http://localhost:5000/contactus.html">Contact Us</a></li>
 </ul>
 
 
@@ -90,7 +90,7 @@ You can leave you message by filling in the following form. <br>
 You can also reach us through visiting any of our branches.
 </p>
 
-<form action=http://localhost/shop/insert.php method="post" accept-charset=utf-8>
+<form action="" method="POST">
   <fieldset>
     <legend><font size="4", style="color: #3cc3b6;">Personal information</font></legend>
     <font style="color: #666666;">First name:</font><br>
@@ -103,7 +103,7 @@ You can also reach us through visiting any of our branches.
     <input type="email" id="email" name="email" maxLength="64">
     <br>
   </fieldset>
-  
+
   <br>
   <fieldset>
     <legend><font size="4", style="color: #3cc3b6;">Comments</font></legend>
@@ -111,10 +111,8 @@ You can also reach us through visiting any of our branches.
     <textarea name="message" id="message" rows="8" cols="40"></textarea>
     <br>
   </fieldset>
-  <br><br>
-  <input type="submit" value="Send">
-  <br><br><br>
-  
+  <hr>
+  <input type="submit" value="Submit"></input>
 </form>
 
 
