@@ -47,7 +47,7 @@ echo $Message;
 
 
 
-echo "Your request has been processed. Thank you for choosing Tiffany !";
+echo "Your request has been processed. Thank you for choosing Tiffany & Co.!";
 		
 /* if (!mysqli_query($query, $con)) 
       die ("INSERT failed: $mysql_query ". mysqli_error());
